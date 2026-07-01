@@ -12,7 +12,7 @@
         $acesso_concedido = false;
         $tentativa_usuario = $_POST["name"] ?? "";
         $tentativa_senha = $_POST["password"] ?? "";
-
+        $text = "";
         try {
 
             if ($tentativa_usuario==$usuario_cadastrado && $tentativa_senha==$senha_correta) {

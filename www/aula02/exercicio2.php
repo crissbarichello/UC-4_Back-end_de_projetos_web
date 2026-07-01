@@ -15,7 +15,8 @@
     
     $nameErr = $emailErr = "";
     $name = $email = "";
-
+    $data = "";
+    
     if (empty($_POST["name"])) {
         $nameErr = "Name is required";
     } else {
