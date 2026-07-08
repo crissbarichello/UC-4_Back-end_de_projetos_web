@@ -5,14 +5,14 @@
     <tr>
         <td>
             <ul>
-            <?php
-            $produtos = ["Arroz", "Feijão", "Macarrão"];
+                <?php
+                $produtos = ["Arroz", "Feijão", "Macarrão"];
 
-            foreach ($produtos as $nome) {
-                echo "<li>Produto: $nome </li>";
+                foreach ($produtos as $nome) {
+                    echo "<li>Produto: $nome </li>";
 
-            }
-            ?>
+                }
+                ?>
             </ul>
         </td>
     </tr>

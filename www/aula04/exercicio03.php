@@ -1,6 +1,6 @@
 <table align="center" border="solid" style="width:10%">
     <tr>
-        <td>Tabuada de 2</td>
+        <td>Tabuada de 3</td>
     </tr>
 
     <?php
