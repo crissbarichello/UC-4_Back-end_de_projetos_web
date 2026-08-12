@@ -35,6 +35,7 @@
 
         <?php if ($bonus !== null): ?>
             <h2>Resultado</h2>
+            <p>Valor de consumo: R$ <?= number_format($valor, 2, ',', '.') ?></p>
             <p>Gorjeta: R$ <?= number_format($bonus, 2, ',', '.') ?></p>
         <?php endif; ?>
     </footer>
