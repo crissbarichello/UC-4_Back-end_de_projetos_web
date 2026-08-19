@@ -14,11 +14,11 @@
 
     class fazerCompras
     {
-        public $itens;
-        public $qtd = 0;
+        public string $itens;
+        public int $qtd = 0;
 
-        private $valorItens = 0;
-        
+        private float $valorItens = 0;
+
         public function listarProd($posicao)
         {
 

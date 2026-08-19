@@ -9,14 +9,14 @@
 <?php
 class Carro
 {
-    public $modelo;
-    public $cor;
-    public $ano;
-    private $velocidade = 0;
+    public string $modelo;
+    public string $cor;
+    public int $ano;
+    private int $velocidade = 0;
 
-    public function ligar()
+    public function ligar($cor)
     {
-        return "O carro está ligado";
+        return "O carro ". $cor . " está ligado";
     }
 
     public function acelerar($acelerar)
@@ -49,7 +49,7 @@ class Carro
     echo "Modelo: " . $carro1->modelo . "<br>";
     echo "Cor: " . $carro1->cor . "<br>";
     echo "Ano: " . $carro1->ano . "<br>";
-    echo $carro1->ligar() . "<br>";
+    echo $carro1->ligar($carro1->cor) . "<br>";
     echo $carro1->acelerar(50) . "<br>";
     echo $carro1->freiar(20) . "<br>";
     ?>
