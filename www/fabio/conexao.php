@@ -8,7 +8,7 @@ $pass = "";
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    // echo "Chave da despensa funcionando!"; 
+    // echo "Chave de conexão funcionando!"; 
 } catch (PDOException $e) {
-    die("Erro ao abrir a despensa: " . $e->getMessage());
+    die("Erro ao conectar" . $e->getMessage());
 }
